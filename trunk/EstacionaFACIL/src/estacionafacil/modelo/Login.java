@@ -22,7 +22,7 @@ public class Login {
     }
 
     public boolean isValido() {
-        if ((usuario.equals("anderson") && senha.equals("anderson")) || (usuario.equals("pablo") && senha.equals("pablo"))) {
+        if (usuario.equals("anderson") && senha.equals("anderson")) {
             return true;
         } else {
             return false;
