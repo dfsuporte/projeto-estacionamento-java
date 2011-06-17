@@ -46,7 +46,8 @@ public class Tela_Principal extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItemTipo = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -293,13 +294,16 @@ public class Tela_Principal extends javax.swing.JFrame {
         jMenuItem4.setText("Categoria");
         jMenu2.add(jMenuItem4);
 
-        jMenuItem5.setText("Tipo");
-        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+        jMenuItem6.setText("Preços");
+        jMenu2.add(jMenuItem6);
+
+        jMenuItemTipo.setText("Tipo");
+        jMenuItemTipo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem5ActionPerformed(evt);
+                jMenuItemTipoActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem5);
+        jMenu2.add(jMenuItemTipo);
 
         jMenuBar1.add(jMenu2);
 
@@ -333,10 +337,10 @@ public class Tela_Principal extends javax.swing.JFrame {
         cadastroBox.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
-    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+    private void jMenuItemTipoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemTipoActionPerformed
         Tela_Cadastro_Tipo cadastroTipo = new Tela_Cadastro_Tipo();
         cadastroTipo.setVisible(true);
-    }//GEN-LAST:event_jMenuItem5ActionPerformed
+    }//GEN-LAST:event_jMenuItemTipoActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -363,7 +367,8 @@ public class Tela_Principal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItemTipo;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
