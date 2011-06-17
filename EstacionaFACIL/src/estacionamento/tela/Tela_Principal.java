@@ -294,6 +294,11 @@ public class Tela_Principal extends javax.swing.JFrame {
         jMenu2.add(jMenuItem4);
 
         jMenuItem5.setText("Tipo");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem5);
 
         jMenuBar1.add(jMenu2);
@@ -327,6 +332,11 @@ public class Tela_Principal extends javax.swing.JFrame {
         Tela_Cadastro_Box cadastroBox = new Tela_Cadastro_Box();
         cadastroBox.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        Tela_Cadastro_Tipo cadastroTipo = new Tela_Cadastro_Tipo();
+        cadastroTipo.setVisible(true);
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
