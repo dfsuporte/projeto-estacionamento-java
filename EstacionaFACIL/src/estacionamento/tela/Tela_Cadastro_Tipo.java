@@ -36,7 +36,6 @@ public class Tela_Cadastro_Tipo extends javax.swing.JFrame {
         jButtonTipoSalvar = new javax.swing.JButton();
         jButtonTipoCancelar = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Cadastro de tipo");
 
         jLabelTipoDescricao.setText("Descrição:");
