@@ -2,7 +2,7 @@ package estacionamento;
 
 import estacionamento.tela.Tela_Login;
 
-public class Estacionamento {
+public class Main {
 
     public static void main(String[] args) {
         Tela_Login login = new Tela_Login();
